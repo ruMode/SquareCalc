@@ -12,7 +12,7 @@ namespace SquareCalc.Figures
         }
         public double CalculateArea()
         {
-           return SideA * SideB / 2;
+           return SideA * SideB;
         }
     }
 }

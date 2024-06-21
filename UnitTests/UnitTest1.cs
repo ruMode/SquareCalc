@@ -42,7 +42,7 @@ namespace UnitTests
 
             double area = FigureCalculator.CalculateArea(rectangle);
 
-            Assert.Equal(3 * 5 / 2.0, area);
+            Assert.Equal(3 * 5.0, area);
         }
     }
 }
